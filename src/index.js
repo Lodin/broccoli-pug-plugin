@@ -1,7 +1,6 @@
-import 'babel-polyfill';
+import path from 'path';
 import {readFile, writeFile} from 'fs-promise';
 import {render} from 'pug';
-import path from 'path';
 import mkdirp from 'mkdirp-then';
 import Plugin from 'broccoli-plugin';
 import walk from 'walk-sync';
